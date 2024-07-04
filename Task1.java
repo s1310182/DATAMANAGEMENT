@@ -33,8 +33,8 @@ class Task1 {
         }
         System.out.println("Heads: " + heads + ", Tails: " + tails);
 
-        if(heads > tails) System.out.println("You won");
-        else System.out.println("You lost");
+        if(heads > tails) System.out.println(name + " won!");
+        else System.out.println(name + " lost!");
     }
 
 }
